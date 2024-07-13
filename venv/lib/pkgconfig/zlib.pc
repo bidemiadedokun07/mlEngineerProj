@@ -1,0 +1,13 @@
+prefix=/Users/bmic/Desktop/AI_Class/mlEgineerProj/venv
+exec_prefix=/Users/bmic/Desktop/AI_Class/mlEgineerProj/venv
+libdir=/Users/bmic/Desktop/AI_Class/mlEgineerProj/venv/lib
+sharedlibdir=/Users/bmic/Desktop/AI_Class/mlEgineerProj/venv/lib
+includedir=/Users/bmic/Desktop/AI_Class/mlEgineerProj/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
